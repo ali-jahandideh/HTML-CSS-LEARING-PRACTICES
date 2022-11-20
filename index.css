@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* *********************************************************************************************** */
+
+
+
+
+
+
+html{
+    font-size: 100%;
+    font-family: "Vazir Code";
+}
+
+.contianer{
+    width: 1075px;
+    margin: 0 auto;
+}
+
+.form{
+    margin-top: 2rem;
+}
+
+.form .form-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00c4c4;
+    margin-bottom: 1rem;
+}
+
+.form label{
+    font-weight: bold;
+}
+
+.form label,
+.form input:not([type="checkbox"]){
+    display: block;
+    margin-bottom: .7rem;
+}
+
+.form input:focus {
+    background-color: #9df8f8;
+    outline: none;
+    border: 1px solid #00baba !important;
+}
+
+.form input.invalid {
+    background-color: rgb(255, 115, 115);
+    border: 1px solid rgb(184, 34, 34) !important;
+}
+
+.form input.form-control {
+    width: 100%;
+    font-family: inherit;
+    padding: .6rem .6rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.form input.form-control::placeholder{
+    color: rgb(150, 148, 148);
+}
+
+.checkbox{
+    position: relative;
+    padding-right: 2.2rem;
+    padding-top: .4rem;
+}
+
+
+.checkbox input{
+    display: none;
+}
+
+
+.checkbox .checkmark{
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 4px;
+}
+
+
+.checkbox:hover .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox input:checked ~ .checkmark {
+    background-color: #00baba;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    top: 5px;
+    right: 8px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox input:checked ~ .checkmark::after {
+    display: block;
+}
+
+.btn-B1{
+    background-color: #00baba;
+    color: white;
+    border: 1px solid #16a085;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
